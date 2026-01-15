@@ -23,7 +23,7 @@ msgstr "Sessions"
 
 #: ../assets/resources/window.blp:53
 msgid "Remaining time"
-msgstr ""
+msgstr "Залишок часу"
 
 #: ../assets/resources/window.blp:57
 msgid "05:00"
@@ -31,19 +31,19 @@ msgstr "05:00"
 
 #: ../assets/resources/window.blp:88
 msgid "Remove 30s"
-msgstr "Відняти 30с"
+msgstr "Зменшити на 30 с"
 
 #: ../assets/resources/window.blp:99 ../internal/components/main_window.go:68
 msgid "Start Timer"
-msgstr "Запустити Таймер"
+msgstr "Запустити таймер"
 
 #: ../assets/resources/window.blp:110
 msgid "Add 30s"
-msgstr "Додати 30с"
+msgstr "Додати 30 с"
 
 #: ../assets/resources/window.blp:125
 msgid "About Sessions"
-msgstr "О Sessions"
+msgstr "Про Sessions"
 
 #: ../internal/components/main_window.go:63
 msgid "Stop"
@@ -51,16 +51,16 @@ msgstr "Зупинити"
 
 #: ../internal/components/main_window.go:111
 msgid "Session finished"
-msgstr "Сесія закінчилась"
+msgstr "Сесію завершено"
 
 #: ../internal/components/main_window.go:114
 msgid "Stop alarm"
-msgstr "Зупинити таймер"
+msgstr "Зупинити сигнал"
 
 #: ../assets/meta/com.pojtinger.felicitas.Sessions.desktop.in:5
 #: ../assets/resources/metainfo.xml.in:5
 msgid "Focus with timed work intervals"
-msgstr "Зосередьтеся, поділивши роботу на інтервали"
+msgstr "Зосередьтеся, працюючи в часових інтервалах"
 
 #: ../assets/resources/metainfo.xml.in:49
 msgid ""
@@ -69,34 +69,34 @@ msgid ""
 "focused sessions with regular breaks."
 msgstr ""
 "Sessions — це простий візуальний таймер, створений спеціально для техніки "
-"Помодоро, який допомагає вам залишатися продуктивними, поділяючи роботу на "
-"сесії з регулярними перервами."
+"Помодоро, який допомагає підтримувати продуктивність, поділяючи роботу на "
+"зосереджені сесії з регулярними перервами."
 
 #: ../assets/resources/metainfo.xml.in:52
 msgid "It enables you to:"
-msgstr "Він дозволить вам:"
+msgstr "Застосунок дозволяє:"
 
 #: ../assets/resources/metainfo.xml.in:54
 msgid "Start focused work sessions with customizable timer durations"
 msgstr ""
-"Залишайтеся зосередженими за допомогою таймера з настроюваними періодами"
+"Запускати зосереджені робочі сесії з настроюваною тривалістю таймера"
 
 #: ../assets/resources/metainfo.xml.in:55
 msgid "Track your progress with a clean, distraction-free interface"
 msgstr ""
-"Відстежувати свій прогрес в інтерфейсі без жодних відволікаючих елементів"
+"Відстежувати прогрес в чистому інтерфейсі без відволікаючих елементів"
 
 #: ../assets/resources/metainfo.xml.in:56
 msgid "Take regular breaks to maintain productivity"
-msgstr "Брати регулярні перерви для підтримки продуктивності"
+msgstr "Робити регулярні перерви для підтримки продуктивності"
 
 #: ../assets/resources/metainfo.xml.in:64
 msgid "Setting up a new timer session"
-msgstr "Встановлення нової сесії таймеру"
+msgstr "Налаштування нової сесії таймера"
 
 #: ../assets/resources/metainfo.xml.in:69
 msgid "Timer running during a work session"
-msgstr "Таймер працює під час робочої сесії"
+msgstr "Робота таймера під час робочої сесії"
 
 #: ../assets/resources/metainfo.xml.in:74
 msgid "pomodoro"
@@ -112,7 +112,7 @@ msgstr "продуктивність"
 
 #: ../assets/resources/metainfo.xml.in:77
 msgid "focus"
-msgstr "фокус"
+msgstr "зосередженість"
 
 #: ../assets/resources/metainfo.xml.in:78
 msgid "work intervals"
@@ -120,51 +120,34 @@ msgstr "робочі інтервали"
 
 #: ../assets/resources/metainfo.xml.in:79
 msgid "task management"
-msgstr "керування задачами"
+msgstr "керування завданнями"
 
 #: ../assets/resources/metainfo.xml.in:87
 msgid ""
 "Add Ukrainian, Russian, Hindi, Estonian, Vietnamese, and Portuguese (Brazil) "
 "translations"
 msgstr ""
+"Додано переклади українською, російською, гінді, естонською, вʼєтнамською та "
+"португальською (Бразилія)"
 
 #: ../assets/resources/metainfo.xml.in:94
 msgid "Add new icon and improve translations"
-msgstr "Додати нову іконку та покращити переклади"
+msgstr "Додано нову іконку та покращено переклади"
 
 #: ../assets/resources/metainfo.xml.in:101
 msgid ""
 "Timer notification now focuses the existing window instead of opening a new "
 "one"
 msgstr ""
-"Сповіщення таймеру тепер сфокусує на існуючому вікні замість відкриття нового"
+"Сповіщення таймера тепер фокусує вже відкрите вікно замість відкриття нового"
 
 #: ../assets/resources/metainfo.xml.in:108
 msgid "Play alarm sound when timer finishes"
-msgstr "Відтворити звук, коли таймер закінчиться"
+msgstr "Відтворювати звуковий сигнал після завершення таймера"
 
 #: ../assets/resources/metainfo.xml.in:116
 msgid "Fix icon not showing in overview on non-GNOME desktops"
 msgstr ""
-"Справити відсутність іконки Sessions в режимі огляду у стільницях які не є "
-"GNOME"
+"Виправлено відображення іконки в огляді на середовищах, відмінних від GNOME"
 
-#: ../assets/resources/metainfo.xml.in:117
-msgid "Update to latest GNOME runtime"
-msgstr "Оновити до найновішого середовища GNOME"
-
-#: ../assets/resources/metainfo.xml.in:125
-msgid "Add additional translations"
-msgstr "Додати додаткові переклади"
-
-#: ../assets/resources/metainfo.xml.in:132
-msgid "Improve translations"
-msgstr "Покращити переклади"
-
-#: ../assets/resources/metainfo.xml.in:139
-msgid "Improve app summary"
-msgstr "Покращити опис додатку"
-
-#: ../assets/resources/metainfo.xml.in:146
-msgid "Initial release"
-msgstr "Початковий реліз"
+#: ../asset
